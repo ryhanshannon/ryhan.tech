@@ -1,0 +1,19 @@
+baseURL: https://ryhan.tech
+languageCode: en-us
+title: Ryhan's Blog
+theme: ["PaperMod"]
+
+menu:
+  main:
+    - identifier: archive
+      name: archive
+      url: /posts/
+      weight: 10
+    - identifier: twitter
+      name: twitter
+      url: https://x.com/ryhan_fgc
+      weight: 20
+    - identifier: github
+      name: Github
+      url: https://example.org
+      weight: 30
