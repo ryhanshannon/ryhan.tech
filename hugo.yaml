@@ -15,5 +15,31 @@ menu:
       weight: 20
     - identifier: github
       name: Github
-      url: https://example.org
+      url: https://github.com/ryhanshannon
       weight: 30
+
+params:
+  homeInfoParams:
+    Title: Hi there wave
+    Content: Can be Info, links, about...
+
+  
+  socialIcons: # optional
+    - name: "discord"
+      url: "discord.com"
+  ShowShareButtons: true
+  ShareButtons: ["x", "reddit", "ycombinator"]
+
+  ShowReadingTime: true
+  ShowToc: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+
+  comments: true
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
