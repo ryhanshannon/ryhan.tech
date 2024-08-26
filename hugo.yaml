@@ -2,7 +2,7 @@ baseURL: https://ryhan.tech
 languageCode: en-us
 title: Ryhan's Blog
 theme: ["PaperMod"]
-
+contentDir: content
 menu:
   main:
     - identifier: archive
@@ -23,12 +23,20 @@ params:
     Title: Hi there wave
     Content: Can be Info, links, about...
 
-  
+  ShowFullTextinRSS: true
   socialIcons: # optional
+    - name: "rss"
+      url: "/index.xml"
+    - name: "twitter"
+      url: "twitter.com/ryhan_fgc"
     - name: "discord"
       url: "discord.com"
+    - name: "twitch"
+      url: "discord.com"
+      
+
   ShowShareButtons: true
-  ShareButtons: ["x", "reddit", "ycombinator"]
+  ShareButtons: ["x", "reddit", "ycombinator", discord]
 
   ShowReadingTime: true
   ShowToc: true
@@ -43,3 +51,4 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search
+

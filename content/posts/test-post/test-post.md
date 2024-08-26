@@ -1,6 +1,6 @@
 ---
 title: "test post"
-
+outputs : ['html','rss']
 socialIcons:
   - name: "kofi"
     url: "https://kofi.com"
