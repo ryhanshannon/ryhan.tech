@@ -3,6 +3,11 @@ languageCode: en-us
 title: Ryhan's Blog
 theme: ["PaperMod"]
 contentDir: content
+module:
+  mounts:
+  - source: attachements
+    target: content
+
 menu:
   main:
     - identifier: archive
@@ -20,8 +25,8 @@ menu:
 
 params:
   homeInfoParams:
-    Title: Hi there wave
-    Content: Can be Info, links, about...
+    Title: Ryhan's Blog
+    Content: Infosec, fighting games, side projects
 
   ShowFullTextinRSS: true
   socialIcons: # optional

@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Ryhan&#39;s Blog</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Ryhan&#39;s Blog</description>
+    <title>Windows Defender on Ryhan&#39;s Blog</title>
+    <link>http://localhost:1313/tags/windows-defender/</link>
+    <description>Recent content in Windows Defender on Ryhan&#39;s Blog</description>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 10 Dec 2024 12:31:13 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/windows-defender/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bypassing Defender Signatures</title>
+      <title>Obfuscating tools against Defender</title>
       <link>http://localhost:1313/posts/defender-obfuscation/defender-obfuscation/</link>
       <pubDate>Tue, 10 Dec 2024 12:31:13 -0700</pubDate>
       <guid>http://localhost:1313/posts/defender-obfuscation/defender-obfuscation/</guid>
-      <description>Running a Red Team engagement and need some Windows tooling that isn&amp;rsquo;t going to pop alerts? Let&amp;rsquo;s get started.
-The Setup All of the testing in this post was performed on a fresh Windows 11 Hyper-V VM. This is the easiest hygienic way to test red team tooling while triggering Defender alerts afaik. Best practice: Turn off your network connectivity as soon as all your dependencies+repositories are installed!
-Initial Steps Once you have a functioning Windows 11 VM, open your &amp;ldquo;Virus and Threat Protection&amp;rdquo; and disable Real Time Protection.</description>
-      <content:encoded><![CDATA[<p>Running a Red Team engagement and need some Windows tooling that isn&rsquo;t going to pop alerts? <br>
-Let&rsquo;s get started.</p>
-<h1 id="the-setup">The Setup</h1>
+      <description>The Setup All of the testing in this post was performed on a fresh Windows 11 Hyper-V VM. This is the easiest hygienic way to test red team tooling while triggering Defender alerts afaik. Best practice: Turn off your network connectivity as soon as all your dependencies+repositories are installed!
+Initial Steps Once you have a functioning Windows 11 VM, open your &amp;ldquo;Virus and Threat Protection&amp;rdquo; and disable Real Time Protection. Then create a defender exclusion directory for testing.</description>
+      <content:encoded><![CDATA[<h1 id="the-setup">The Setup</h1>
 <p>All of the testing in this post was performed on a fresh Windows 11 Hyper-V VM.
 This is the easiest hygienic way to test red team tooling while triggering Defender alerts afaik.
 <br>
